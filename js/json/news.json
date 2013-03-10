@@ -1,0 +1,41 @@
+{ 
+	"status": {
+		"code":	"0"
+	},
+  	"newsList": {
+		"news": [
+		  {
+			"id": "1",
+			"title": "Новость 1",
+			"image": "pic1.jpg",
+			"date": "30.11.2011T00:00.00",
+			"shortText": "Короткий текст первой новости",
+			"important": "LOW"
+		  },
+		  {
+			"id": "2",
+			"title": "Новость 2",
+			"image": "pic2.jpg",
+			"date": "20.11.2011T00:00.00",
+			"shortText": "Короткий текст второй новости",
+			"important": "LOW"
+		  },
+		  {
+			"id": "3",
+			"title": "Новость 3",
+			"image": "pic3.jpg",
+			"date": "10.11.2011T00:00.00",
+			"shortText": "Короткий текст второй новости",
+			"important": "LOW"
+		  },
+		  {
+			"id": "4",
+			"title": "Новость 4",
+			"image": "pic4.jpg",
+			"date": "01.11.2011T00:00.00",
+			"shortText": "Короткий текст второй новости",
+			"important": "LOW"
+		  }
+		]
+  	}
+}

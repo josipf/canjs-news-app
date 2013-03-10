@@ -1,0 +1,14 @@
+<% list(articles, function(article){ %>
+<%= (el)-> el.data('article', article) %>
+<li>
+    <a href="#" data-id="<%= article.id %>">
+        <img src="img/<%= article.image %>" width="130" height="80" alt="<%= article.title %>">
+        <span class="arrow"></span>
+        <div class="txt">
+            <span class="date"><%= (article.date).replace("T"," - "); %></span>
+            <h2><%= article.title %></h2>
+            <p class="shorttext"><%= article.shortText %></p>
+        </div>
+    </a>
+</li>
+<% }) %>
